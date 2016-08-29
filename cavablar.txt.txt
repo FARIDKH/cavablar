@@ -1,0 +1,57 @@
+1) burda &   $var adinda deyisen yaradir ve "null" a beraber edir.
+Yeni , 
+function yarat(&$var){	}
+	
+	yarat($b);
+    
+    var_dump($b);  output - NULL olacaq.
+
+
+
+2) $var  = "Hello"
+   $$var = "World";  - > burda ki $var evvelkinin valuesini deyiskenin adi kimi qebul edir ve ortaya ($hello = "world") cixir.
+ekrana "hello world" yazmaq ucun echo " $var  $hello  " ve ya " $var ${$var}" yazmaq lazimdi;
+ 3)isset() boolean deyer donderir;
+
+
+4) ------------------
+     
+
+5)
+     foo funskiyasi cagirildi. bar funksiyasi foo funskiyasinin parametri kimi goturuldu. 
+     bar funksiyasi & operatoru ile NULL ( 0 )a beraber olundu. 1 vahid artirildi ve ekrana 1 cixarildi. 
+
+
+6)Cavab verilib.
+7)unlink - fayl silir. unset ise deyiseni silir (deyisen string, array , ve s ola biler)
+8)Array donderecek
+9)<?php
+
+
+
+function length($word){
+    $x = serialize($word);
+    $y = explode(":",$x);
+    print_r('<pre>');
+    print_r($y[1]);
+    print_r('<pre>');
+}
+
+
+$word = "Code Academy 2016";
+length($word)
+?>
+10) and operatoru left asociativity liye mexsusdur. ve ekrana true cixacaq cunki soldaki deyer 
+sagdakindan daha ustundur. eger and operatoru right asociativity liye mexsus olsaydi onda false ekrana cixacaqdi.
+11) ------------------------
+12) 0 la basladigi ucun octal numberdir. ve xususi dustur ile ekrana 7 cixir;
+13) static keywordu method ve ya deyiskeni object teyin etmeden , static olunmus seyi isletme imkani verir.
+
+
+
+
+
+
+
+
+
